@@ -1,6 +1,6 @@
 # Plate IQ - Backend Assignment
 
-Ref: [PlateIQ-BackendEngineer-Assignment.pdf] (PlateIQ-BackendEngineer-Assignment.pdf)
+Ref: [PlateIQ-BackendEngineer-Assignment.pdf](PlateIQ-BackendEngineer-Assignment.pdf)
 
 
 #### System Requirements
@@ -9,9 +9,10 @@ Ref: [PlateIQ-BackendEngineer-Assignment.pdf] (PlateIQ-BackendEngineer-Assignmen
 
 ### Steps to Execute:
 Execute below commands in order:
-1) `virtualenv venv`
+1) `virtualenv venv -p python3`
 2) `source venv/bin/activate`
 3) `pip install -r requirements.txt`
+4) `cd plateiq_app`
 4) `python migrate.py`      # optional if data.db file exists (with sample data provided)
 5) `python app.py`
 
