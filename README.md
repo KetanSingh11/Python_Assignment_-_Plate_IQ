@@ -17,7 +17,7 @@ Execute below commands in order:
 5) `python app.py`
 
 #### To upload a __*pdf*__ document:
-Open any browser and goto http://127.0.0.1:5000/ <br>
+Open any browser and goto http://127.0.0.1:5000/upload <br>
 PDF's will be uploaded and stored under `./uploads` folder.
 
 ### API's:
